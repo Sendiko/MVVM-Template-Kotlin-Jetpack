@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30
+package com.example.mvvm
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

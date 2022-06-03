@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.datastore
+package com.example.mvvm.datastore
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.booleanPreferencesKey

@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.fragment
+package com.example.mvvm.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.homeworkmanager30.R
-import com.example.homeworkmanager30.databinding.FragmentSplashScreenBinding
+import com.example.mvvm.R
+import com.example.mvvm.databinding.FragmentSplashScreenBinding
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenFragment : Fragment() {

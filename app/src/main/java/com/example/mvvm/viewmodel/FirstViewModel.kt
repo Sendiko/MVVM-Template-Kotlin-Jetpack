@@ -1,10 +1,10 @@
-package com.example.homeworkmanager30.viewmodel
+package com.example.mvvm.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.homeworkmanager30.datastore.Preferences
+import com.example.mvvm.datastore.Preferences
 import kotlinx.coroutines.launch
 
 class FirstViewModel(private val dp : Preferences) : ViewModel(){

@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.datastore
+package com.example.mvvm.datastore
 
 data class Model(
 	val first : String,

@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.viewmodel
+package com.example.mvvm.viewmodel
 
 import androidx.lifecycle.ViewModel
 

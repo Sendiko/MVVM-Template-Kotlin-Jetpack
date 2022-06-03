@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30
+package com.example.mvvm
 
 import org.junit.Test
 

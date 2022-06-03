@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.fragment
+package com.example.mvvm.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.homeworkmanager30.databinding.FragmentSecondBinding
-import com.example.homeworkmanager30.viewmodel.SecondViewModel
+import com.example.mvvm.databinding.FragmentSecondBinding
+import com.example.mvvm.viewmodel.SecondViewModel
 
 class SecondFragment : Fragment() {
 	

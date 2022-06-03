@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.homeworkmanager30"
+        applicationId "com.example.mvvm"
         minSdk 21
         targetSdk 32
         versionCode 1

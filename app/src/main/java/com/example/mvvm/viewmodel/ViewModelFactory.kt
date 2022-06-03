@@ -1,8 +1,8 @@
-package com.example.homeworkmanager30.viewmodel
+package com.example.mvvm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.homeworkmanager30.datastore.Preferences
+import com.example.mvvm.datastore.Preferences
 
 class ViewModelFactory(private val preferences: Preferences) : ViewModelProvider.NewInstanceFactory() {
 	override fun <T : ViewModel> create(modelClass: Class<T>): T {

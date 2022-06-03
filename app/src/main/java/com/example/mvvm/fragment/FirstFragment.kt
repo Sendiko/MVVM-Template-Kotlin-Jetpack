@@ -1,4 +1,4 @@
-package com.example.homeworkmanager30.fragment
+package com.example.mvvm.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,11 +8,11 @@ import android.widget.Toast
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.homeworkmanager30.databinding.FragmentFirstBinding
-import com.example.homeworkmanager30.datastore
-import com.example.homeworkmanager30.datastore.Preferences
-import com.example.homeworkmanager30.viewmodel.FirstViewModel
-import com.example.homeworkmanager30.viewmodel.ViewModelFactory
+import com.example.mvvm.databinding.FragmentFirstBinding
+import com.example.mvvm.datastore
+import com.example.mvvm.datastore.Preferences
+import com.example.mvvm.viewmodel.FirstViewModel
+import com.example.mvvm.viewmodel.ViewModelFactory
 
 class FirstFragment : Fragment() {
 	
