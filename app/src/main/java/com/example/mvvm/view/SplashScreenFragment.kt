@@ -1,4 +1,4 @@
-package com.example.mvvm.fragment
+package com.example.mvvm.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle

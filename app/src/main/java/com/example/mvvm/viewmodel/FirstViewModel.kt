@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.mvvm.datastore.Preferences
+import com.example.mvvm.model.Preferences
 import kotlinx.coroutines.launch
 
 class FirstViewModel(private val dp : Preferences) : ViewModel(){

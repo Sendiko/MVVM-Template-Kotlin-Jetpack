@@ -1,4 +1,4 @@
-package com.example.mvvm.fragment
+package com.example.mvvm.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.mvvm.databinding.FragmentFirstBinding
 import com.example.mvvm.datastore
-import com.example.mvvm.datastore.Preferences
+import com.example.mvvm.model.Preferences
 import com.example.mvvm.viewmodel.FirstViewModel
 import com.example.mvvm.viewmodel.ViewModelFactory
 

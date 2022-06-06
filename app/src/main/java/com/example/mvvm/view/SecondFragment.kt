@@ -1,4 +1,4 @@
-package com.example.mvvm.fragment
+package com.example.mvvm.view
 
 import android.os.Bundle
 import android.view.LayoutInflater

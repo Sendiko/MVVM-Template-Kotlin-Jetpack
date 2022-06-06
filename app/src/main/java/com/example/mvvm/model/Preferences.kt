@@ -1,4 +1,4 @@
-package com.example.mvvm.datastore
+package com.example.mvvm.model
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.booleanPreferencesKey

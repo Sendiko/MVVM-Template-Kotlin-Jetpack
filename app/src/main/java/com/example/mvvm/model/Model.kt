@@ -1,4 +1,4 @@
-package com.example.mvvm.datastore
+package com.example.mvvm.model
 
 data class Model(
 	val first : String,

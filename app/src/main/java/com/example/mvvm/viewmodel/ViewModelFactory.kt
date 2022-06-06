@@ -2,7 +2,7 @@ package com.example.mvvm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.mvvm.datastore.Preferences
+import com.example.mvvm.model.Preferences
 
 class ViewModelFactory(private val preferences: Preferences) : ViewModelProvider.NewInstanceFactory() {
 	override fun <T : ViewModel> create(modelClass: Class<T>): T {
