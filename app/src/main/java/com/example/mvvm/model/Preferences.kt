@@ -10,19 +10,19 @@ import kotlinx.coroutines.flow.map
 
 class Preferences private constructor(private val dataStore: DataStore<androidx.datastore.preferences.core.Preferences>){
 
-	private val firstkey = stringPreferencesKey("first")
+	private val firstKey = stringPreferencesKey("first")
 	private val secondKey = intPreferencesKey("second")
 	private val thirdKey = booleanPreferencesKey("third")
 	
 	fun getPreferences() : Flow<String>{
 		return dataStore.data.map { preferences ->
-			preferences[firstkey] ?: ""
+			preferences[firstKey] ?: ""
 		}
 	}
 	
 	suspend fun savePreferences(first : String, second : Int, third : Boolean){
 		dataStore.edit { preferences ->
-			preferences[firstkey] = first
+			preferences[firstKey] = first
 			preferences[secondKey] = second
 			preferences[thirdKey] = third
 		}
