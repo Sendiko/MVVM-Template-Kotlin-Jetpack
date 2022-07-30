@@ -6,3 +6,4 @@
 #### 1. Lifecycle dependency
 #### 2. ViewModel 
 #### 3. Navigation Component
+#### 4. Preferences DataStore
